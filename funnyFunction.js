@@ -347,4 +347,38 @@ var funnyFunction = {
             return element.currentStyle || document.defaultView.getComputedStyle(element, null);
         }
     }
+
+    //基础类型判断相关
+    baseType:{
+    	isNumber:function(s){
+    		return !isNaN(s)
+    	},
+    	isString:function(s){
+    		return typeof s ==='string';
+    	},
+    	isBoolean:function(s)
+    	{
+    		return typeof s ==='boolean';
+    	},
+    	isFunction:function(s)
+    	{
+    		return typeof s ==='funciton';
+    	},
+    	isNull:function(s)
+    	{
+    		return s===null;
+    	},
+    	isUndefined:function(s)
+    	{
+    		return typeof s ==='undefined';
+    	},
+    	isEmpty:function(s)
+    	{
+    		return /^\s*$/.test(s)/;
+    	},
+    	isArray:function(s)
+    	{
+    		return s instanceof Array;
+    	}
+    }
 }
