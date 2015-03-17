@@ -347,7 +347,7 @@ var funnyFunction = {
             return element.currentStyle || document.defaultView.getComputedStyle(element, null);
         }
     }
-
+    ,
     //基础类型判断相关
     baseType:{
     	isNumber:function(s){
@@ -374,7 +374,7 @@ var funnyFunction = {
     	},
     	isEmpty:function(s)
     	{
-    		return /^\s*$/.test(s)/;
+    		return /^\s*$/.test(s);
     	},
     	isArray:function(s)
     	{
