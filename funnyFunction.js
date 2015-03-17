@@ -381,6 +381,3 @@ var funnyFunction = {
     	}
     }
 }
-
-
-/*这不是毛线注释*/
