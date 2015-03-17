@@ -346,7 +346,7 @@ var funnyFunction = {
         get: function(element) {
             return element.currentStyle || document.defaultView.getComputedStyle(element, null);
         }
-    }
+    },
 
     //基础类型判断相关
     baseType:{
@@ -382,3 +382,5 @@ var funnyFunction = {
     	}
     }
 }
+
+/* 这是毛线注释 */
