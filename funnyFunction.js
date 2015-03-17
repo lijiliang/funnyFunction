@@ -382,5 +382,3 @@ var funnyFunction = {
     	}
     }
 }
-
-/* 这是毛线注释 */
